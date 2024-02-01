@@ -9,7 +9,7 @@
   // the "speak" method and which you will expose to the global context
   // See Lecture 52, part 1
   var byeSpeaker = {};
-  byespeaker.speak = function (name) {
+  byespeaker.speak = function speak(name) {
     console.log(speakWord + " " + name);
   }
   window.bySpeaker.speak = byeSpeaker.speak
