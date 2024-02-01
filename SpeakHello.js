@@ -1,6 +1,6 @@
 (function (window) {
       var helloSpeaker = {};
-      helloSpeaker.speak = function (window) {
+      helloSpeaker.speak = function () {
         console.log(speakWord + " " + name);
       }
   
