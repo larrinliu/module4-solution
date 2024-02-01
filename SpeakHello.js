@@ -22,7 +22,7 @@
   
   // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
   // 'helloSpeaker' on the global scope as well.
-  window.helloSpeaker = hellospeaker;
+  window.helloSpeaker = helloSpeaker;
   
   // See Lecture 52, part 2
   // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
