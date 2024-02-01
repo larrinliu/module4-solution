@@ -6,6 +6,7 @@
   
       var speakWord = "Hello";
       
+      window.helloSpeaker.speak = helloSpeaker.speak;
       window.helloSpeaker = helloSpeaker;     
 })(window);
 
